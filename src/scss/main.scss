@@ -1,6 +1,10 @@
 @import 'reset';
 @import 'colors';
 @import 'fonts';
+@import 'home';
+@import "navigation";
+@import "button";
+@import 'homeHeader';
 
 body{
   font-family: $font-base;

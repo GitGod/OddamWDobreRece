@@ -1,2 +1,11 @@
-$font-base: OpenSans;
-$font-alt: Merriweather;
+$font-base: "Open-Sans", sans-serif;
+$font-alt: "Merriweather", serif;
+@for $i from 300 through 800 {
+  .open-sans-#{$i} {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: #{$i};
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+  }
+}

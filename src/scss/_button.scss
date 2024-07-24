@@ -1,0 +1,17 @@
+@import "./colors";
+@import "./fonts";
+
+
+.btn{
+  max-width: 310px;
+  height: 120px;
+  font-size: 38px;
+  background: none;
+  margin: 10px;
+  @extend .open-sans-300;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 9px 20px;
+  border: 0.75px solid  $accent-color5;
+
+}

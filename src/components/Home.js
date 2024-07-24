@@ -3,9 +3,8 @@ import HomeHeader from "./HomeHeader";
 
 const Home = () => {
     return (
-        <div>
+        <div className="section">
             <HomeHeader/>
-            <h1>xxx</h1>
         </div>
     );
 };

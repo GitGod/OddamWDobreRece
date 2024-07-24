@@ -1,0 +1,62 @@
+@import "./colors";
+@import "./fonts";
+
+
+.navigation__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navigation__up {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: $accent-color1;
+  width: 100%;
+  padding: 10px 10px 10px 10px;
+  margin-right: 60px;
+}
+
+.navigation__up nav {
+  display: flex;
+  gap: 20px;
+}
+
+.navigation__up button {
+  background-color: $accent-color1;
+  color: $accent-color4;
+  padding: 10px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.navigation__up button:hover {
+  border: 2px solid #FAD648;
+}
+
+.navigation__scroll {
+  width: 100%;
+  margin-right: 60px;
+}
+
+.navigation__scroll nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navigation__scroll nav a {
+  margin: 10px 0;
+  text-decoration: none;
+  color: $accent-color5;
+  font-size: 18px;
+  cursor: pointer;
+  padding: 9px 20px;
+  border: 2px solid transparent;
+
+  &:hover{
+    border: 2px solid $accent-color5;
+  }
+}
